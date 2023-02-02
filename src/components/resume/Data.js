@@ -30,7 +30,7 @@ export const Data = [
         year:'April 2022 - Current',
         title:'Software Developer',
         desc:'NCSI Tecnology pvt. ltd. ,Pune, India',
-        res:'years of experience as a software engineer at DEF Company, where I developed and maintained web applications for clients in various industries'
+        res:'1+ year of experience as a software Developer at NCSI Company, where I developed and maintained web applications for clients in various industries.'
     },
     {
         id:5,
@@ -39,6 +39,6 @@ export const Data = [
         year:'Feb 2021 - Jan 2022',
         title:'Software Intern',
         desc:'Rudra Innovative Software ,Punjab, India',
-        res:'years of experience as a software engineer at DEF Company, where I developed and maintained web applications for clients in various industries'
+        res:'I learned about the core framework of JavaScript and developed the projects for clients and got the internship certification from that company.'
     },
 ]

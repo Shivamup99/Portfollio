@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import AboutImg from '../../assets/avatar-2.svg'
+import AboutImg from '../../assets/shiva.jpg'
 import AboutBox from './AboutBox'
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
        <div className="about_data grid">
         <div className="about_info">
           <p className="about_des">
-          I am a highly skilled and experienced software engineer with a proven track record of delivering high-quality, innovative solutions to complex problems. I am proficient in a wide range of programming languages, including Java, Python, and C++, and have experience working with various technologies and platforms, such as web development, databases, and cloud computing.
+          I am  skilled and experienced software developer with a proven track record of delivering high-quality, innovative solutions to complex problems. I am proficient in a wide range of programming languages, including Java,Script framework like Node and React, Angular  and have experience working with various technologies and platforms, such as web development, databases, and cloud computing.
 
           </p>
           <a href="#cv" className="btn">Download CV</a>

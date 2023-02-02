@@ -38,7 +38,7 @@ const Portfollio = () => {
                 {ele.category}
               </span>
               <h3 className="work_title">{ele.title}</h3>
-              <a href="#" className="work_button">
+              <a href={ele?.link} className="work_button">
                 <i className='icon-link work_button-icon'></i>
               </a>
             </div>

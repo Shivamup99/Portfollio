@@ -1,6 +1,6 @@
 import React from 'react'
 import './testimollio.css'
-import { Pagination, Scrollbar } from 'swiper';
+import { Autoplay, Navigation, Pagination, Scrollbar } from 'swiper';
 import {Swiper , SwiperSlide} from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination'
@@ -11,10 +11,15 @@ const Testimollio = () => {
     <div className='testimonials container section' id='certifications'>
       <h2 className="section_title">Certifications</h2>
       <Swiper className="testimonials_container grid"
-       modules={[Pagination,Scrollbar]}
+       modules={[Pagination,Scrollbar,Autoplay,Navigation]}
        spaceBetween={30}
        slidesPerView={1}
        loop={true}
+       navigation={true}
+       autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
        grabCursor={true}
        pagination={{clickable:true}}
        scrollbar={{ draggable: true }}
